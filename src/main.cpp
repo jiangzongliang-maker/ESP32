@@ -4,7 +4,7 @@
 // 0: 无中断，读取Touch值
 // 1：Touch中断，执行 TouchEvent()
 // 2: 外部IO的中断
-#define EXT_ISR_MODE 0
+#define EXT_ISR_MODE 2
 
 void TouchEvent()
 {
